@@ -5,26 +5,24 @@
     <title>kittens</title>
 
     <!-- Loading Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css">
-    <!-- this makes the bootstrap.css visible to WebStorm so that it can provide suggestions for code completion -->
-    <link rel="stylesheet" type="text/css" href="../../bootstrap/dist/css/bootstrap.css">
 
     <!-- Loading Javascript Stuff -->
-    <script type="text/javascript" src="javascript/clientJavascript.js"></script>
-    <script type="text/javascript" src="angularjs/angular.js"></script>
+    <script type="text/javascript" src="/javascript/clientJavascript.js"></script>
+    <script type="text/javascript" src="/angularjs/angular.js"></script>
 
-    <script type="text/javascript" src="javascript/app.js"></script>
-    <script type="text/javascript" src="javascript/main.controller.js"></script>
-    <script type="text/javascript" src="javascript/navbar.controller.js"></script>
+    <script type="text/javascript" src="/javascript/app.js"></script>
+    <script type="text/javascript" src="/javascript/main.controller.js"></script>
+    <script type="text/javascript" src="/javascript/navbar.controller.js"></script>
 </head>
 
 <body ng-app="mainApp" ng-controller="mainCtrl as mainControl">
 
-<div ng-include="'views/navbar.html'"></div>
+<div ng-include="'/views/navbar.html'"></div>
 
     <hr>
-    <img src="assets/images/puppies.jpg">
+    <img src="/assets/images/puppies.jpg">
     <button class="blockCenter" style="margin-top: 10px" type="button" onclick="sendAlert()">Send an alert!</button>
     <hr>
     <div class="container">
