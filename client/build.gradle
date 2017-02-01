@@ -1,0 +1,13 @@
+// Client side build.gradle
+// Builds the client side of the project
+
+// Gradle plugins
+plugins {
+        // Not sure how we want to handle this yet...
+        // Should we go the route of the com.moonwork.node plugin?
+        // or should we work out getting our dependencies (webpack and
+        // Angular 2, etc.) from Yarn and running Karma with the
+        // com.craigburke.karma plugin?
+}
+
+// This needs work

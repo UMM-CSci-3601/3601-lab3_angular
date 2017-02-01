@@ -1,11 +1,4 @@
-apply plugin: 'java'
+// Project root build.gradle
 
-apply plugin: 'application'
-mainClassName="App"
 
-repositories {
-             mavenCentral()
-}
-dependencies {
-             compile "com.sparkjava:spark-core:2.5.4"
-}
+// Doesn't do anything right now.
